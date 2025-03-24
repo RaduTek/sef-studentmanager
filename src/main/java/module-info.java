@@ -3,6 +3,6 @@ module com.radutek.sefstudentmanager {
     requires javafx.fxml;
 
 
-    opens com.radutek.sefstudentmanager to javafx.fxml;
-    exports com.radutek.sefstudentmanager;
+    opens loose.oose.fis.lab.student.manager to javafx.fxml;
+    exports loose.oose.fis.lab.student.manager;
 }
